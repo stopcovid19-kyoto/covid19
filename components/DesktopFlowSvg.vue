@@ -1190,7 +1190,7 @@
       <g transform="translate(0 -19)">
         <g transform="translate(19 5)">
           <a
-            xlink:href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+            xlink:href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#C"
             target="_blank"
             rel="noopener"
           >
