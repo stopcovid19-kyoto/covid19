@@ -32,7 +32,7 @@
             ]"
           >
             <a
-              href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+              href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#C"
               target="_blank"
               rel="noopener"
             >

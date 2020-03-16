@@ -13,7 +13,9 @@
           <div class="SideNavigation-Logo">
             <img src="/logo.svg" :alt="$t('京都府')" />
           </div>
-          {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト非公式') }}
+          京都府<br />
+          {{ $t('新型コロナウイルス感染症') }}<br />
+          {{ $t('対策サイト') }}
         </h1>
       </nuxt-link>
     </header>
@@ -51,7 +53,6 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          2020 Tokyo Metropolitan Government
         </small>
       </v-footer>
     </div>

@@ -40,7 +40,7 @@
     "退院※": "退院※"
   },
   "en": {
-    "京都府内の最新感染動向": "Latest updates on COVID-19 in Tokyo",
+    "京都府内の最新感染動向": "Latest updates on COVID-19 in Kyoto",
     "自分や家族の症状に不安や心配があればまずは電話相談をどうぞ": "Contact the Telephone Advisory Center if you have any concerns.",
     "相談の手順を見る": "Steps for receiving help",
     "検査陽性者の状況": "Details of confirmed cases",
@@ -51,7 +51,7 @@
     "新型コロナ受診相談窓口相談件数": "Number of inquiries to combined telephone advisory center",
     "都営地下鉄の利用者数の推移": "The predicted number of Toei subway passengers",
     "都庁来庁者数の推移": "Trend in the number of TMG visitors",
-    "府内発生（疑い例・接触者調査）": "Emerged in Tokyo (Suspected cases or contactees)",
+    "府内発生（疑い例・接触者調査）": "Emerged in Kyoto (Suspected cases or contactees)",
     "その他（チャーター便・クルーズ船）": "Others (Returnees or Cruise ship passengers)",
     "{date}の累計": "Cumulative total as of {date}",
     "期間: {duration}": "Period: {duration}",
@@ -69,7 +69,7 @@
     "居住地": "Residence",
     "年代": "Age",
     "性別": "Gender",
-    "府内": "Tokyo",
+    "府内": "Kyoto",
     "埼玉県": "Saitama",
     "湖南省長沙市": "Changsha, Hunan Province",
     "湖北省武漢市": "Wuhan City, Hubei Province ",
