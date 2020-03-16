@@ -38,9 +38,6 @@
             <v-divider v-show="item.divider" class="SideNavigation-Divider" />
           </v-container>
         </v-list>
-        <div class="SideNavigation-LanguageMenu">
-          <LanguageSelector />
-        </div>
       </nav>
       <v-footer class="SideNavigation-Footer">
         <small class="SideNavigation-Copyright">
@@ -63,11 +60,9 @@
 <i18n src="./SideNavigation.i18n.json"></i18n>
 <script>
 import ListItem from '@/components/ListItem'
-import LanguageSelector from '@/components/LanguageSelector.vue'
 export default {
   components: {
-    ListItem,
-    LanguageSelector
+    ListItem
   },
   props: {
     isNaviOpen: {
