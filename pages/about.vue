@@ -141,15 +141,15 @@
     <TextCard :title="$t('データについて')">
       <i18n
         tag="p"
-        path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
+        path="本サイトで公表しているデータは、{catalogWebsite}より取得しています。（データは順次追加予定です）"
       >
         <a
-          href="https://portal.data.metro.tokyo.lg.jp/"
+          href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
         >
-          {{ $t('東京都オープンデータカタログサイト') }}
+          {{ $t('京都府') }}
         </a>
       </i18n>
     </TextCard>
