@@ -24,7 +24,7 @@
               target="_blank"
               rel="noopener"
             >
-              {{ $t('出店：京都府Webサイト') }}
+              {{ $t('出典：京都府Webサイト') }}
               <v-icon
                 class="ExternalLinkIcon"
                 size="15"
