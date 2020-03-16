@@ -40,7 +40,7 @@
     "居住地": "Residence",
     "年代": "Age",
     "性別": "Gender",
-    "都内": "Tokyo",
+    "都内": "Kyoto",
     "埼玉県": "Saitama",
     "湖南省長沙市": "Changsha, Hunan Province",
     "湖北省武漢市": "Wuhan City, Hubei Province ",

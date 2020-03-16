@@ -41,12 +41,19 @@ export default {
           body: [
             this.$t('各保健所にご相談ください'),
             this.$t('「新型コロナウイルス感染症にかかる相談窓口について」'),
-            '<a href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html" target="_blank" rel="noopener">https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html</a>'
+            '<a href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#C" target="_blank" rel="noopener">http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#C</a>'
           ].join('<br />')
         },
         {
-          title: `3. ${this.$t('その他')}`,
-          body: this.$t('詳細は、各学校からのお知らせ等をご確認ください。')
+          title: `3. ${this.$t('府内公立学校の臨時休業')}`,
+          body: [
+            this.$t('臨時休業の期間等の情報です'),
+            '<a href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#J" target="_blank" rel="noopener">http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#C</a>'
+          ].join('<br />')
+        },
+        {
+          title: `4. ${this.$t('その他')}`,
+          body: this.$t('詳細は、各学校などからのお知らせ等をご確認ください。')
         }
       ]
     }

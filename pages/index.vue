@@ -6,6 +6,12 @@
       :date="headerItem.date"
     />
     <whats-new class="mb-4" :items="newsItems" />
+    <static-info
+      class="mb-4"
+      :url="'http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#C'"
+      :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
+      :btn-text="$t('相談の手順を見る')"
+    />
     <v-row class="DataBlock">
       <confirmed-cases-details-card />
       <confirmed-cases-number-card />
@@ -20,23 +26,26 @@
 <script>
 import PageHeader from '@/components/PageHeader.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
+import StaticInfo from '@/components/StaticInfo.vue'
 import Data from '@/data/data.json'
 import formatGraph from '@/utils/formatGraph'
 // import formatTable from '@/utils/formatTable'
 import News from '@/data/news.json'
-import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+// import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+// import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 
 export default {
   components: {
     PageHeader,
     WhatsNew,
-    ConfirmedCasesDetailsCard,
+    StaticInfo,
+    // ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
-    ConfirmedCasesAttributesCard,
-    TestedNumberCard
+    ConfirmedCasesAttributesCard
+    // ConfirmedCasesAttributesCard,
+    // TestedNumberCard
   },
   data() {
     // 退院者グラフ

@@ -58,17 +58,18 @@
 
 <script>
 import Data from '@/data/data.json'
-import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+// import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+// import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 
 export default {
   components: {
-    ConfirmedCasesDetailsCard,
+    // ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
-    ConfirmedCasesAttributesCard,
-    TestedNumberCard
+    ConfirmedCasesAttributesCard
+    // ConfirmedCasesAttributesCard,
+    // TestedNumberCard
   },
   data() {
     let title, updatedAt
@@ -132,7 +133,7 @@ export default {
             this.$t('京都府') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
-            this.$t('対策サイト（非公式）')
+            this.$t('対策サイト')
         },
         {
           hid: 'description',

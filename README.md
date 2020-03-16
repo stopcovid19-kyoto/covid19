@@ -1,11 +1,13 @@
 # 京都府 非公式 新型コロナウイルス感染症対策サイト
 
+<!--
 ![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
 
 [![京都府 非公式 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
 
 ### [日本語](./README.md) | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md) | [Thai](./README_TH.md)
 
+-->
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
@@ -19,7 +21,7 @@ Issues にあるいろいろな修正にご協力いただけると嬉しいで�
 ## ライセンス
 本ソフトウェアは、[MITライセンス](./LICENSE.txt)の元提供されています。
 
-## このサイトから派生したサイト
+## このサイトの派生元サイトなどの情報
 
 [Link先](./forkedSites.md)を御覧ください。
 
