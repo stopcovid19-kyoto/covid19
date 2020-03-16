@@ -1,10 +1,10 @@
-# 東京都 新型冠狀病毒疫情中心
+# 京都府 非公式 新型冠狀病毒疫情中心
 
 ![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
 
-[![東京都 新型冠狀病毒疫情中心](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
+[![京都府 非公式 新型冠狀病毒疫情中心](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
 
-### [日本語](./README.md) | English | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md) | [Thai](./README_TH.md)
+### [日本語](./README.md) | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md) | [Thai](./README_TH.md)
 
 
 ## 如何貢獻
@@ -55,10 +55,10 @@ $ yarn install
 ```bash
 $ docker-compose run --rm app yarn install
 ```
-### Detect procition/others environment (translate me!)
+### 生產環境/其他環境的判定
 
-On the production environment, `'production'` is assigned to `process.env.GENERATE_ENV` variable, on the other case `'development'` is assigned to the variable.
-Please use the variable to detect which enviroinment is used at the runtime.
+關於 `process.env.GENERATE_ENV` 這個值 ,生產環境為 `'production'` ，除此之外為 `'development'` 。
+如果只想要在測試環境中執行的話，請利用這個值作為參考。
 
 ### Deploy 到 Staging 環境以及正式環境的方法
 
