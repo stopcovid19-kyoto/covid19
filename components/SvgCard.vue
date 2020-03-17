@@ -1,6 +1,7 @@
 <template>
   <data-view class="SvgCard" :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
+      <!-- 
       <p class="Graph-Desc">
         {{
           $t(
@@ -15,6 +16,7 @@
           )
         }}
       </p>
+       -->
     </template>
     <slot />
   </data-view>

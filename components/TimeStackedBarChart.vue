@@ -1,5 +1,5 @@
 <template>
-  <data-view :title="title" :title-id="titleId" :date="date" :url2="url">
+  <data-view :title="title" :title-id="titleId" :date="date" :url="url">
     <!-- 
     <template v-slot:button>
       <p class="Graph-Desc">

@@ -149,8 +149,8 @@ function readPatientsV2() : array
       })->groupBy('リリース日')->map(function ($rows) {
         return $rows->count();
       })),
-      '重症' => makeDateArray('2020-01-24')->merge($base_data->filter(function ($row) {
-        return $row['退院'] !== '〇' && preg_match('/重症$/', trim($row['備考']));
+      '症状がある方' => makeDateArray('2020-01-24')->merge($base_data->filter(function ($row) {
+        return $row['退院'] !== '〇' && preg_match('/症状がある方$/', trim($row['備考']));
       })->groupBy('リリース日')->map(function ($rows) {
         return $rows->count();
       }))
@@ -288,12 +288,12 @@ $data['main_summary'] = [
           'value' => $better_patients_summary['data']['感染者数']->sum() - $better_patients_summary['data']['退院者数']->sum() - $better_patients_summary['data']['死亡者数']->sum(),
           'children' => [
             [
-              'attr' => '軽症・中等症',
+              'attr' => '症状が無い方',
               'value' => $better_patients_summary['data']['軽症']->sum() + $better_patients_summary['data']['中等症']->sum()
             ],
             [
-              'attr' => '重症',
-              'value' => $better_patients_summary['data']['重症']->sum()
+              'attr' => '症状がある方',
+              'value' => $better_patients_summary['data']['症状がある方']->sum()
             ]
           ]
         ],

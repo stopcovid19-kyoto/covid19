@@ -9,8 +9,9 @@
       :items="inspectionsItems"
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
-      :url="'https://code4sabae.github.io/covid19/index.html'"
+      :url="'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'"
     />
+    <!-- :url="'https://code4sabae.github.io/covid19/index.html'" -->
     <!-- 件.tested = 検査数 -->
   </v-col>
 </template>
