@@ -5,12 +5,12 @@
 
 
 
+[![京都府 非公式 新型コロナウイルス感染症対策サイト](https://stopcovid19-kyoto.netlify.com/ogp.png)](https://stopcovid19-kyoto.netlify.com/)
+
+
 ### [日本語](./README.md) | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md) | [Thai](./README_TH.md)
 
 -->
-
-[![京都府 非公式 新型コロナウイルス感染症対策サイト](https://stopcovid19-kyoto.netlify.com/ogp.png)](https://stopcovid19-kyoto.netlify.com/)
-
 <!--
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
