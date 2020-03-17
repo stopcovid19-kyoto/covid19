@@ -1,5 +1,6 @@
 <template>
-  <data-view :title="title" :title-id="titleId" :date="date">
+  <data-view :title="title" :title-id="titleId" :date="date" :url2="url">
+    <!-- 
     <template v-slot:button>
       <p class="Graph-Desc">
         {{ $t('（注）同一の対象者について複数の検体を調査する場合あり') }}
@@ -12,12 +13,15 @@
       </p>
       <data-selector v-model="dataKind" :target-id="chartId" />
     </template>
+     -->
+    <!-- 
     <bar
       :chart-id="chartId"
       :chart-data="displayData"
       :options="options"
       :height="240"
     />
+     -->
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
         :l-text="displayInfo.lText"
@@ -32,11 +36,12 @@
 
 <script>
 import DataView from '@/components/DataView.vue'
-import DataSelector from '@/components/DataSelector.vue'
+// import DataSelector from '@/components/DataSelector.vue'
 import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
 
 export default {
-  components: { DataView, DataSelector, DataViewBasicInfoPanel },
+  // components: { DataView, DataSelector, DataViewBasicInfoPanel },
+  components: { DataView, DataViewBasicInfoPanel },
   props: {
     title: {
       type: String,
@@ -77,6 +82,11 @@ export default {
       type: String,
       required: false,
       default: ''
+    },
+    url: {
+      type: String,
+      required: false,
+      default: ''
     }
   },
   data() {
@@ -89,7 +99,8 @@ export default {
       if (this.dataKind === 'transition') {
         return {
           lText: this.sum(this.pickLastNumber(this.chartData)).toLocaleString(),
-          sText: `${this.$t('{date}の合計', {
+          // sText: `${this.$t('{date}の合計', {
+          sText: `${this.$t('', {
             date: this.labels[this.labels.length - 1]
           })}`,
           unit: this.unit

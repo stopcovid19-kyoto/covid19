@@ -34,7 +34,7 @@ import News from '@/data/news.json'
 // import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-// import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 
 export default {
   components: {
@@ -43,9 +43,8 @@ export default {
     StaticInfo,
     // ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
-    ConfirmedCasesAttributesCard
-    // ConfirmedCasesAttributesCard,
-    // TestedNumberCard
+    ConfirmedCasesAttributesCard,
+    TestedNumberCard
   },
   data() {
     // 退院者グラフ
