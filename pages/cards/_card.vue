@@ -61,15 +61,14 @@ import Data from '@/data/data.json'
 // import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-// import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 
 export default {
   components: {
     // ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
-    ConfirmedCasesAttributesCard
-    // ConfirmedCasesAttributesCard,
-    // TestedNumberCard
+    ConfirmedCasesAttributesCard,
+    TestedNumberCard
   },
   data() {
     let title, updatedAt
@@ -99,7 +98,7 @@ export default {
     return data
   },
   head() {
-    const url = 'https://stopcovid19.metro.tokyo.lg.jp'
+    const url = 'https://stopcovid19-kyoto.netlify.com'
     const timestamp = new Date().getTime()
     const ogpImage =
       url +

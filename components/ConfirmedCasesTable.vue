@@ -42,7 +42,7 @@
               <div class="gutter">
                 <div class="box short">
                   <!-- eslint-disable vue/no-v-html-->
-                  <span v-html="$t('軽症・<br />中等症')" />
+                  <span v-html="$t('症状が無い方')" />
                   <!-- eslint-enable vue/no-v-html-->
                   <span>
                     <b>{{ 軽症中等症 }}</b>
@@ -54,9 +54,9 @@
             <li class="item serious">
               <div class="gutter">
                 <div class="box short">
-                  <span>{{ $t('重症') }}</span>
+                  <span>{{ $t('症状がある方') }}</span>
                   <span>
-                    <b>{{ 重症 }}</b>
+                    <b>{{ 症状がある方 }}</b>
                     <span class="unit">{{ $t('人') }}</span>
                   </span>
                 </div>
@@ -100,7 +100,7 @@ export default {
     '陽性物数',
     '入院中',
     '軽症中等症',
-    '重症',
+    '症状がある方',
     '死亡',
     '退院'
   ],
@@ -136,7 +136,7 @@ export default {
       deceased,
       discharged
     ) {
-      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人で、うち軽症・中等症は${mild}人、また重症は${critically}人です。さらに死亡は${deceased}人、退院は${discharged}人です。`
+      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人で、うち症状が無い方は${mild}人、また症状がある方は${critically}人です。さらに死亡は${deceased}人、退院は${discharged}人です。`
       return ariaLabel
     }
   }
@@ -227,11 +227,11 @@ export default {
     width: calc(100% / 3 * 2);
   }
 }
-// 軽症・中等症
+// 症状が無い方
 .item.mild {
   width: calc(100% / 2);
 }
-// 重症
+// 症状がある方
 .item.serious {
   width: calc(100% / 2);
 }

@@ -4,6 +4,7 @@
       :title="$t('検査陽性者の状況')"
       :title-id="'details-of-confirmed-cases'"
       :date="Data.inspections_summary.date"
+      :url="'http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'"
     >
       <confirmed-cases-table
         :aria-label="$t('検査陽性者の状況')"

@@ -1,6 +1,13 @@
 <template>
-  <data-view class="SvgCard" :title="title" :title-id="titleId" :date="date">
+  <data-view
+    class="SvgCard"
+    :title="title"
+    :title-id="titleId"
+    :date="date"
+    :url="url"
+  >
     <template v-slot:button>
+      <!-- 
       <p class="Graph-Desc">
         {{
           $t(
@@ -15,6 +22,7 @@
           )
         }}
       </p>
+       -->
     </template>
     <slot />
   </data-view>
@@ -52,6 +60,11 @@ export default {
     },
     date: {
       type: String,
+      default: ''
+    },
+    url: {
+      type: String,
+      required: false,
       default: ''
     }
   }

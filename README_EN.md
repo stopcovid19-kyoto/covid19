@@ -1,8 +1,8 @@
 # Tokyo COVID-19 Task Force website
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![](https://github.com/stopcovid19-kyoto/covid19/workflows/production%20deploy/badge.svg)
 
-[![Tokyo COVID-19 Task Force website](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
+[![Kyoto unofficial COVID-19 Task Force website](https://stopcovid19-kyoto.netlify.com/ogp.png)](https://stopcovid19-kyoto.netlify.com/)
 
 
 ### [日本語](./README.md) | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md) | [Thai](./README_TH.md)
@@ -61,10 +61,10 @@ Please use the variable to detect which enviroinment is used at the runtime.
 ### Deployment to Staging & Production Environments
 
 When `master` branch is updated, the HTML files will be automatically built onto `production` branch,
-and then the production site (https://stopcovid19.metro.tokyo.lg.jp/) will be also updated.
+and then the production site (https://stopcovid19-kyoto.netlify.com/) will be also updated.
 
 When `staging` branch is updated, the HTML files will be automatically built onto `gh-pages` branch,
-and then the staging site (https://stg-covid19-tokyo.netlify.com/) will be also updated.
+and then the staging site (https://stg-stopcovid19-kyoto.netlify.com/) will be also updated.
 
 When `development` branch is updated, the HTML files will be automatically built onto `dev-pages` branch,
-and then the development site (https://dev-covid19-tokyo.netlify.com/) will be also updated.
+and then the development site (https://dev-stopcovid19-kyoto.netlify.com/) will be also updated.
