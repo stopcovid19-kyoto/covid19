@@ -27,7 +27,7 @@ Trang này cho bạn biết cách có thể đóng góp cho sự phát triển c
 * Vui lòng đọc [Nguyên tắc / Quy tắc ứng xử](CODE_OF_CONDUCT_VI.md) trước khi tham gia phát triển.
 * Để liên lạc, vui lòng kiểm tra code cho [Quy tắc ứng xử] của Nhật Bản (https://github.com/codeforjapan/codeofconduct).
 * Nếu bạn có kế hoạch xử lý một issue, vui lòng để lại bình luận phía sau để đưa ra ý kiến.
-* [good first issue label](https://github.com/tokyo-metropolitan-gov/covid19/issues?q=is%3Asu+is%3Aopen+label%3A%22good+first+su%22) được khuyến nghị cho người mới bắt đầu.
+* [good first issue label](https://github.com/stopcovid19-kyoto/covid19/issues?q=is%3Asu+is%3Aopen+label%3A%22good+first+su%22) được khuyến nghị cho người mới bắt đầu.
 * Nếu bạn không thể đạt được tiến bộ nào trong hơn nửa ngày, hãy đảm bảo rằng những người khác có thể đảm nhận công việc của bạn.
 * Nếu một issue không được cập nhật trong hơn một ngày, chúng tôi có thể xóa.
 * [Draft Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) được khuyến nghị cho mọi công việc đang tiến triển, để mọi người hiểu tình hình.
@@ -35,9 +35,9 @@ Trang này cho bạn biết cách có thể đóng góp cho sự phát triển c
 * Chúng tôi cũng chấp nhận đề xuất! Xin vui lòng tạo ra issues.
 
 ## Thông tin phát triển
-* Trang web phát triển https://dev-covid19-tokyo.netlify.com/
-* Trang web dàn dựng https://stg-covid19-tokyo.netlify.com/
-* Trang web sản xuất https://stopcovid19.metro.tokyo.lg.jp/
+* Trang web phát triển https://dev-stopcovid19-kyoto.netlify.com/
+* Trang web dàn dựng https://stg-stopcovid19-kyoto.netlify.com/
+* Trang web sản xuất https://stopcovid19-kyoto.netlify.com/
 * [Thiết kế](https://www.figma.com/file/V7vt80p2gauhdgTZeVNbgj/UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?node-id=121 % 3A156)
 
 Cập nhật cho tài liệu này cũng được chào đón!

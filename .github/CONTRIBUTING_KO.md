@@ -22,7 +22,7 @@
 * 개발에 참가하기 전에, [Principle/행동강령](CODE_OF_CONDUCT_KO.md) 를 읽어주시기 바랍니다.
 * 커뮤니케이션에 대해서는, Code for Japan의 [행동강령](https://github.com/codeforjapan/codeofconduct) 을 확인해주세요.
 * 내가 참여할수 있는 Issue에 누구도 배정되지 않은 경우, Issue에 "제가 하겠습니다!"등의 댓글을 달아 주신 후 개발을 시작해주세요.
-* [good first issue 라벨이 붙은 이슈](https://github.com/tokyo-metropolitan-gov/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)는 초보자에게 추천합니다.
+* [good first issue 라벨이 붙은 이슈](https://github.com/stopcovid19-kyoto/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)는 초보자에게 추천합니다.
 * 반나절이상 작업을 멈춰야 하는 경우, 다른분이 작업을 계속 진행할 수 있도록 해주세요.（Issue를 배정받은 상태로 장시간 중지 상태가 되면 그 Issue로 때문에 다른 이슈가 블록이 됩니다.）
 * 1일 이상 갱신이 없는 Issue에 관해서는, 배정을 취소하는 경우가 있습니다. 작업도중이라도, [Draft Pull Request](https://qiita.com/tatane616/items/13da1b6797a7b871ad58)를 보내주시면 진행상황을 파악할 수 있습니다.
 * Issue에 대한 질문은, Slack보다는 Issue의 댓글을 활용해주세요.
@@ -32,14 +32,14 @@
 * [도쿄도 코로나19 대책 사이트에 기여하는 방법에 대한 해설(Qiita, 일본어)](https://qiita.com/FPC_COMMUNITY/items/b9cc072813dc2231b2b2)
 
 ## CONTRIBUTORS.md 의 추가 게제에 대해서
-도와주신 모든 분들께, 이름(닉네임)과 역할을 넣은 [CONTRIBUTORS.md](https://github.com/tokyo-metropolitan-gov/covid19/blob/development/CONTRIBUTORS.md)라는 파일이 있습니다.
+도와주신 모든 분들께, 이름(닉네임)과 역할을 넣은 [CONTRIBUTORS.md](https://github.com/stopcovid19-kyoto/covid19/blob/development/CONTRIBUTORS.md)라는 파일이 있습니다.
 무엇이든 기여를 하신 분께서는 이름을 올려주세요.
-[#654](https://github.com/tokyo-metropolitan-gov/covid19/issues/654) 의 Issue에 게제할 이름, 링크(원하는 경우), 역할을 댓글로 작성하세요.
+[#654](https://github.com/stopcovid19-kyoto/covid19/issues/654) 의 Issue에 게제할 이름, 링크(원하는 경우), 역할을 댓글로 작성하세요.
 
 ## 개발에 관한 정보
-* 개발 사이트 https://dev-covid19-tokyo.netlify.com/
-* 스테이징 배포 사이트 https://stg-covid19-tokyo.netlify.com/
-* 운영 배포 사이트 https://stopcovid19.metro.tokyo.lg.jp/
+* 개발 사이트 https://dev-stopcovid19-kyoto.netlify.com/
+* 스테이징 배포 사이트 https://stg-stopcovid19-kyoto.netlify.com/
+* 운영 배포 사이트 https://stopcovid19-kyoto.netlify.com/
 * [디자인](https://www.figma.com/file/V7vt80p2gauhdgTZeVNbgj/UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?node-id=121%3A156)
 * [번역 스프레드 시트](https://docs.google.com/spreadsheets/d/1avT6QGInyQseYjoc_TxL8RPZfutyvrv4BtJkXfk1Nko)
 

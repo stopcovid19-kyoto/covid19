@@ -110,7 +110,7 @@ export default {
     grid-template-rows: repeat(3, auto);
     -ms-grid-rows: auto 12px auto 12px auto;
     // HACK: IEでGridの順番がうまくいかない対応
-    // https://github.com/tokyo-metropolitan-gov/covid19/issues/1313
+    // https://github.com/stopcovid19-kyoto/covid19/issues/1313
     & > *:nth-child(1) {
       -ms-grid-column: 1;
       -ms-grid-row: 1;
@@ -140,7 +140,7 @@ export default {
     grid-template-rows: repeat(3, auto);
     -ms-grid-rows: auto 12px auto 12px auto;
     // HACK: IEでGridの順番がうまくいかない対応
-    // https://github.com/tokyo-metropolitan-gov/covid19/issues/1313
+    // https://github.com/stopcovid19-kyoto/covid19/issues/1313
     & > *:nth-child(1) {
       -ms-grid-column: 1;
       -ms-grid-row: 1;

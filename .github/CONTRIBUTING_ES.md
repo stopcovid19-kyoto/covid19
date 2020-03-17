@@ -28,16 +28,16 @@ Esta página muestra cómo puede contribuir al desarrollo de este sitio.
 * Por favor lea [Principio / Código de conducta](CODE_OF_CONDUCT_ES.md) antes de participar en desarrollos.
 * Para comunicaciones, verifique también el Código de Japón [Código de Conducta](https://github.com/codeforjapan/codeofconduct).
 * Si encuentra algunos problemas que puede hacer, ¡por favor, asigne usted mismo!
-* [good first issue label](https://github.com/tokyo-metropolitan-gov/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) se recomienda para principiantes
+* [good first issue label](https://github.com/stopcovid19-kyoto/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) se recomienda para principiantes
 * Si no puede progresar durante más de medio día, asegúrese de que otros puedan hacerse cargo de su trabajo.
 * En caso de que los problemas no se actualicen durante más de un día, podemos eliminar la asignación.[Draft Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) Se recomienda para que todos conozcan la situación.
 * Para cualquier pregunta relacionada con el problema, debemos analizar en los comentarios del problema en Slack.
 * También aceptamos sugerencias! Por favor, siéntase libre de crear nuevos problemas.
 
 ## Información de desarrollo
-* Sitio en desarrollo https://dev-covid19-tokyo.netlify.com/
-* Sitio de prueba https://stg-covid19-tokyo.netlify.com/
-* Sitio en producción https://stopcovid19.metro.tokyo.lg.jp/
+* Sitio en desarrollo https://dev-stopcovid19-kyoto.netlify.com/
+* Sitio de prueba https://stg-stopcovid19-kyoto.netlify.com/
+* Sitio en producción https://stopcovid19-kyoto.netlify.com/
 * [Design](https://www.figma.com/file/V7vt80p2gauhdgTZeVNbgj/UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?node-id=121%3A156)
 * [Hoja de cálculo de traducción](https://docs.google.com/spreadsheets/d/1avT6QGInyQseYjoc_TxL8RPZfutyvrv4BtJkXfk1Nko)
 

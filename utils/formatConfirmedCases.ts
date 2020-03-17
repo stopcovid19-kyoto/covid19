@@ -11,11 +11,11 @@ type DataType = {
           value: number
           children: [
             {
-              attr: '軽症・中等症'
+              attr: '症状が無い方'
               value: number
             },
             {
-              attr: '重症'
+              attr: '症状がある方'
               value: number
             }
           ]
@@ -38,7 +38,7 @@ type ConfirmedCasesType = {
   陽性物数: number
   入院中: number
   軽症中等症: number
-  重症: number
+  症状がある方: number
   死亡: number
   退院: number
 }
@@ -54,7 +54,7 @@ export default (data: DataType) => {
     陽性物数: data.children[0].value,
     入院中: data.children[0].children[0].value,
     軽症中等症: data.children[0].children[0].children[0].value,
-    重症: data.children[0].children[0].children[1].value,
+    症状がある方: data.children[0].children[0].children[1].value,
     死亡: data.children[0].children[2].value,
     退院: data.children[0].children[1].value
   }
