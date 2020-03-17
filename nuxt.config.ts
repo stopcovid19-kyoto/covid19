@@ -33,7 +33,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp'
+        content: 'https://stopcovid19-kyoto.netlify.com'
       },
       {
         hid: 'og:title',
@@ -49,7 +49,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.png'
+        content: 'https://stopcovid19-kyoto.netlify.com/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -69,7 +69,7 @@ const config: Configuration = {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.png'
+        content: 'https://stopcovid19-kyoto.netlify.com/ogp.png'
       },
       {
         hid: 'fb:app_id',

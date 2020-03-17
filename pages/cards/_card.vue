@@ -99,7 +99,7 @@ export default {
     return data
   },
   head() {
-    const url = 'https://stopcovid19.metro.tokyo.lg.jp'
+    const url = 'https://stopcovid19-kyoto.netlify.com'
     const timestamp = new Date().getTime()
     const ogpImage =
       url +
