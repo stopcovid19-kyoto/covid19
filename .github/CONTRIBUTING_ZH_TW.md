@@ -24,7 +24,7 @@
 * 進行參與開發之前、請先閱讀 [Principle/行動規範](CODE_OF_CONDUCT_ZH_TW.md) 。
 * 交流時也請先確認 Code for Japan 的[行動規範（日文網頁）](https://github.com/codeforjapan/codeofconduct) 。
 * 如果有自己可以做而且沒有被指派（assign）的 Issue 的話、請在 Issue 下回應「やります！（我來做）」後再開始開發。
-* [關於 good first issue 標籤](https://github.com/tokyo-metropolitan-gov/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 是推薦給新手的。
+* [關於 good first issue 標籤](https://github.com/stopcovid19-kyoto/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 是推薦給新手的。
 * 如果您可能要離開作業半天以上的話，請確保其他人可以接續您的工作。（如果長時間佔住 Issue，那麼這個 Issue 會被卡住。）
 * 對於一天以上沒有更新的 Issue，我們可能會拔掉 Assignment。在工作中善用 [Draft Pull Request （日文網頁）](https://qiita.com/tatane616/items/13da1b6797a7b871ad58) 的話可以讓大家更輕易地瞭解您目前的進度。
 * Issue 相關的問題請在 Issue 內回應欄討論（而不是 Slack）。
@@ -34,9 +34,9 @@
 * [如何為東京都 新型逛轉病毒網站提供貢獻的解說(Qiita) （日文網頁）](https://qiita.com/FPC_COMMUNITY/items/b9cc072813dc2231b2b2)
 
 ## 補充 CONTRIBUTORS.md 的相關資訊
-對於提供貢獻的大家、在 [CONTRIBUTORS.md](https://github.com/tokyo-metropolitan-gov/covid19/blob/development/CONTRIBUTORS.md) 這份文件中記載了名字（暱稱）以及角色。
+對於提供貢獻的大家、在 [CONTRIBUTORS.md](https://github.com/stopcovid19-kyoto/covid19/blob/development/CONTRIBUTORS.md) 這份文件中記載了名字（暱稱）以及角色。
 如果您有任何貢獻，請在此留下您的大名。
-請在[#654](https://github.com/tokyo-metropolitan-gov/covid19/issues/654) 這個 Issue 留下您要公開的名字、連結（如果有的話）、角色。
+請在[#654](https://github.com/stopcovid19-kyoto/covid19/issues/654) 這個 Issue 留下您要公開的名字、連結（如果有的話）、角色。
 
 ## 開發相關的資訊
 * 開發環境（Dev.）https://dev-stopcovid19-kyoto.netlify.com/

@@ -28,7 +28,7 @@ Esta página muestra cómo puede contribuir al desarrollo de este sitio.
 * Por favor lea [Principio / Código de conducta](CODE_OF_CONDUCT_ES.md) antes de participar en desarrollos.
 * Para comunicaciones, verifique también el Código de Japón [Código de Conducta](https://github.com/codeforjapan/codeofconduct).
 * Si encuentra algunos problemas que puede hacer, ¡por favor, asigne usted mismo!
-* [good first issue label](https://github.com/tokyo-metropolitan-gov/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) se recomienda para principiantes
+* [good first issue label](https://github.com/stopcovid19-kyoto/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) se recomienda para principiantes
 * Si no puede progresar durante más de medio día, asegúrese de que otros puedan hacerse cargo de su trabajo.
 * En caso de que los problemas no se actualicen durante más de un día, podemos eliminar la asignación.[Draft Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) Se recomienda para que todos conozcan la situación.
 * Para cualquier pregunta relacionada con el problema, debemos analizar en los comentarios del problema en Slack.

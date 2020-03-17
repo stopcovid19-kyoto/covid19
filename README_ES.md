@@ -1,6 +1,6 @@
 # Sitio web del Grupo de trabajo COVID-19 de Tokio
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![](https://github.com/stopcovid19-kyoto/covid19/workflows/production%20deploy/badge.svg)
 
 [![Kyoto unofficial COVID-19 Task Force website](https://stopcovid19-kyoto.netlify.com/ogp.png)](https://stopcovid19-kyoto.netlify.com/)
 

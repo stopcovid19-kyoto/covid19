@@ -1,6 +1,6 @@
 # 京都府 非公式 新型冠狀病毒疫情中心
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![](https://github.com/stopcovid19-kyoto/covid19/workflows/production%20deploy/badge.svg)
 
 [![京都府 非公式 新型冠狀病毒疫情中心](https://stopcovid19-kyoto.netlify.com/ogp.png)](https://stopcovid19-kyoto.netlify.com/)
 

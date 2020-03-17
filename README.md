@@ -1,7 +1,7 @@
 # 京都府 非公式 新型コロナウイルス感染症対策サイト
 
 <!--
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![](https://github.com/stopcovid19-kyoto/covid19/workflows/production%20deploy/badge.svg)
 
 
 

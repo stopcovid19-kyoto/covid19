@@ -1,6 +1,6 @@
 # Cổng thông tin chống dịch CoVid-19 của TP Tokyo
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![](https://github.com/stopcovid19-kyoto/covid19/workflows/production%20deploy/badge.svg)
 
 [![Cổng thông tin chống dịch CoVid-19 của TP Kyoto unofficial](https://stopcovid19-kyoto.netlify.com/ogp.png)](https://stopcovid19-kyoto.netlify.com/)
 
