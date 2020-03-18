@@ -58,7 +58,7 @@ export default {
   props: {
     value: {
       type: String,
-      default: 'transition'
+      default: 'cumulative'
     },
     targetId: {
       type: String,
