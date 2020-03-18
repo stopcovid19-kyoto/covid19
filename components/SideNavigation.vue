@@ -102,6 +102,11 @@ export default {
           title: this.$t('京都市公式ホームページ'),
           link: 'https://www.city.kyoto.lg.jp/',
           divider: true
+        },
+        {
+          title: this.$t('東京都 対策サイト（このサイトの派生元）'),
+          link: 'https://stopcovid19.metro.tokyo.lg.jp/',
+          divider: true
         }
       ]
     },

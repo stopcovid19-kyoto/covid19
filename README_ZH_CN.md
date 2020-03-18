@@ -1,8 +1,8 @@
 # 东京都 新型冠状病毒对策网
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![](https://github.com/stopcovid19-kyoto/covid19/workflows/production%20deploy/badge.svg)
 
-[![东京都 新型冠状病毒对策网](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
+[![京都府 非公式 新型冠状病毒对策网](https://stopcovid19-kyoto.netlify.com/ogp.png)](https://stopcovid19-kyoto.netlify.com/)
 
 ### [日本語](./README.md) | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md) | [Thai](./README_TH.md)
 
@@ -47,9 +47,9 @@ Please use the variable to detect which enviroinment is used at the runtime.
 
 ### 发布到 Staging环境以及正式环境的方法
 
-`master` 分支更新時，自动将 `production` 分支中的HTML类(build)后发布到正式版 https://stopcovid19.metro.tokyo.lg.jp/
+`master` 分支更新時，自动将 `production` 分支中的HTML类(build)后发布到正式版 https://stopcovid19-kyoto.netlify.com/
 
-`staging` 分支更新時，自动将 `gh-pages` 分支中的HTML类(build)后发布到Staging版 https://stg-covid19-tokyo.netlify.com/
+`staging` 分支更新時，自动将 `gh-pages` 分支中的HTML类(build)后发布到Staging版 https://stg-stopcovid19-kyoto.netlify.com/
 
-`development` 分支更新時，自动将 `dev-pages` 分支中的HTML类(build)后发布到开发版 https://dev-covid19-tokyo.netlify.com/
+`development` 分支更新時，自动将 `dev-pages` 分支中的HTML类(build)后发布到开发版 https://dev-stopcovid19-kyoto.netlify.com/
 

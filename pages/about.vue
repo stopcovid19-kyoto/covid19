@@ -14,6 +14,12 @@
         $t(
           '京都府による公式情報と客観的な数値をわかりやすく伝えることで、京都府にお住まいの方や、京都府内に拠点を持つ企業の方、京都府を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
         )
+      }}<br />
+      <br />
+      {{
+        $t(
+          '作成にあたっては、東京都 新型コロナウイルス感染症対策サイト(https://stopcovid19.metro.tokyo.lg.jp/)のオープンソースプログラムを活用しています。'
+        )
       }}
     </TextCard>
     <TextCard :title="$t('ブラウザ環境について')">
@@ -161,7 +167,7 @@
       }}
       <i18n path="詳しくは、{githubRepo}をご確認ください。">
         <a
-          href="https://github.com/tokyo-metropolitan-gov/covid19"
+          href="https://github.com/stopcovid19-kyoto/covid19"
           target="_blank"
           rel="noopener"
           place="githubRepo"
@@ -169,6 +175,15 @@
           {{ $t('GitHub リポジトリ') }}
         </a>
       </i18n>
+    </TextCard>
+    <TextCard :title="$t('お問い合わせ先')">
+      <a href="https://github.com/stopcovid19-kyoto/covid19" target="_blank">
+        https://github.com/stopcovid19-kyoto/covid19
+      </a>
+      <br />
+      <a href="mailto:stopcovid19.kyoto@gmail.com">
+        stopcovid19.kyoto@gmail.com
+      </a>
     </TextCard>
   </div>
 </template>

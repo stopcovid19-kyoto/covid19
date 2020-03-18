@@ -35,6 +35,24 @@
                 mdi-open-in-new
               </v-icon>
             </a>
+            <a
+              v-if="url2"
+              class="OpenDataLink"
+              :href="url2"
+              target="_blank"
+              rel="noopener"
+            >
+              {{ $t('出典：COVID-19 Japan') }}
+              <v-icon
+                class="ExternalLinkIcon"
+                size="15"
+                aria-label="別タブで開く"
+                role="img"
+                :aria-hidden="false"
+              >
+                mdi-open-in-new
+              </v-icon>
+            </a>
           </div>
           <div>
             <a class="Permalink" :href="permalink()">
@@ -120,6 +138,7 @@ export default class DataView extends Vue {
   @Prop() private titleId!: string
   @Prop() private date!: string
   @Prop() private url!: string
+  @Prop() private url2!: string
   @Prop() private info!: any // FIXME expect info as {lText:string, sText:string unit:string}
 
   formattedDate: string = convertDatetimeToISO8601Format(this.date)
