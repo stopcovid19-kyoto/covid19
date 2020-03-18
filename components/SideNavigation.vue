@@ -95,12 +95,128 @@ export default {
           link: this.localePath('/about')
         },
         {
-          title: this.$t('京都府公式ホームページ'),
-          link: 'https://www.pref.kyoto.jp/'
+          title: this.$t('京都府公式情報'),
+          link: 'http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html'
         },
         {
-          title: this.$t('京都市公式ホームページ'),
-          link: 'https://www.city.kyoto.lg.jp/',
+          title: this.$t('Information about 2019 Novel Coronavirus Infection'),
+          link: 'https://www.pref.kyoto.jp/kokusai/coronavirus_update.html'
+        },
+        {
+          title: this.$t('新型冠状病毒感染肺炎相关的信息'),
+          link: 'https://www.pref.kyoto.jp/kokusai/coronavirus_cn.html',
+          divider: true
+        },
+        {
+          title: this.$t('京都市公式情報'),
+          link: 'https://www.city.kyoto.lg.jp/hokenfukushi/page/0000266590.html'
+        },
+        {
+          title: this.$t('福知山市公式情報'),
+          link: 'https://www.city.fukuchiyama.lg.jp/site/coronavirus/'
+        },
+        {
+          title: this.$t('舞鶴市公式情報'),
+          link: 'https://www.city.maizuru.kyoto.jp/'
+        },
+        {
+          title: this.$t('綾部市公式情報'),
+          link:
+            'https://www.city.ayabe.lg.jp/bosai/kurashi/anzen/bosai/singatacorona.html'
+        },
+        {
+          title: this.$t('宇治市公式情報'),
+          link: 'https://www.city.uji.kyoto.jp/site/corona/'
+        },
+        {
+          title: this.$t('宮津市公式情報'),
+          link: 'http://www.city.miyazu.kyoto.jp/'
+        },
+        {
+          title: this.$t('亀岡市公式情報'),
+          link: 'https://www.city.kameoka.kyoto.jp/korona-index.html'
+        },
+        {
+          title: this.$t('城陽市公式情報'),
+          link: 'https://www.city.joyo.kyoto.jp/'
+        },
+        {
+          title: this.$t('向日市公式情報'),
+          link:
+            'https://www.city.muko.kyoto.jp/kurashi/kenko_hoken/kenko_iryo/1580171635023.html'
+        },
+        {
+          title: this.$t('長岡京市公式情報'),
+          link: 'http://www.city.nagaokakyo.lg.jp/emergencyinfo/0000000084.html'
+        },
+        {
+          title: this.$t('八幡市公式情報'),
+          link: 'https://www.city.yawata.kyoto.jp/'
+        },
+        {
+          title: this.$t('京田辺市公式情報'),
+          link: 'https://www.kyotanabe.jp/'
+        },
+        {
+          title: this.$t('京丹後市公式情報'),
+          link: 'https://www.city.kyotango.lg.jp/kinkyu/korona_all/index.html'
+        },
+        {
+          title: this.$t('南丹市公式情報'),
+          link:
+            'https://www.city.nantan.kyoto.jp/www/life/113/006/000/index_74314.html'
+        },
+        {
+          title: this.$t('木津川市公式情報'),
+          link: 'https://www.city.kizugawa.lg.jp/index.cfm/6,39260,31,296,html'
+        },
+        {
+          title: this.$t('大山崎町公式情報'),
+          link: 'https://www.town.oyamazaki.kyoto.jp/'
+        },
+        {
+          title: this.$t('久御山町公式情報'),
+          link: 'https://www.town.kumiyama.lg.jp/contents_detail.php?frmId=3421'
+        },
+        {
+          title: this.$t('井手町公式情報'),
+          link: 'https://www.town.ide.kyoto.jp/info/1582011890750.html'
+        },
+        {
+          title: this.$t('宇治田原町公式情報'),
+          link: 'https://www.town.ujitawara.kyoto.jp/'
+        },
+        {
+          title: this.$t('笠置町公式情報'),
+          link:
+            'https://www.town.kasagi.lg.jp/contents_detail.php?co=new&frmId=868'
+        },
+        {
+          title: this.$t('和束町公式情報'),
+          link:
+            'http://www.town.wazuka.lg.jp/contents_detail.php?co=ser&frmId=2747'
+        },
+        {
+          title: this.$t('精華町公式情報'),
+          link: 'https://www.town.seika.kyoto.jp/kinkyu_list/12567.html'
+        },
+        {
+          title: this.$t('南山城村公式情報'),
+          link: 'http://www.vill.minamiyamashiro.lg.jp/'
+        },
+        {
+          title: this.$t('京丹波町公式情報'),
+          link:
+            'https://www.town.kyotamba.kyoto.jp/emergencyinfo/0000000041.html'
+        },
+        {
+          title: this.$t('伊根町公式情報'),
+          link: 'https://www.town.ine.kyoto.jp/kinkyu/1583369396903.html'
+        },
+        {
+          title: this.$t('与謝野町公式情報'),
+          link:
+            'https://www.town-yosano.jp/wwwg/info/detail.jsp?common_id=351160',
           divider: true
         },
         {
