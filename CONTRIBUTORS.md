@@ -1,7 +1,15 @@
-Tokyo Covid-19 response site contributors
+Kyoto Covid-19 response site contributors
 ============================================
 
+
 本サイトにご協力いただいた皆様
+| Name(link) | Contribution |
+| --- | --- |
+| -add your name here!- | -what did you do?- |
+
+
+
+本サイトのFork元、東京都版にご協力された皆様
 
 | Name(link) | Contribution |
 | --- | --- |
@@ -103,7 +111,6 @@ Tokyo Covid-19 response site contributors
 | [Koki Fukushima](https://github.com/f-koki) ||
 | [mkfsn](https://twitter.com/mkfsn) ([@mkfsn](https://github.com/mkfsn)) | Coding, i18n |
 | [Thien Le Vinh](https://github.com/omygodvt95) | Translation |
-| -add your name here!- | -what did you do?- |
 
 ご協力に感謝です！！！
 
