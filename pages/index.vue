@@ -13,10 +13,10 @@
       :btn-text="$t('相談の手順を見る')"
     />
     <v-row class="DataBlock">
-      <confirmed-cases-details-card />
       <confirmed-cases-number-card />
       <confirmed-cases-attributes-card />
       <tested-number-card />
+      <confirmed-cases-details-card />
     </v-row>
   </div>
 </template>
@@ -31,20 +31,20 @@ import Data from '@/data/data.json'
 import formatGraph from '@/utils/formatGraph'
 // import formatTable from '@/utils/formatTable'
 import News from '@/data/news.json'
-import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 
 export default {
   components: {
     PageHeader,
     WhatsNew,
     StaticInfo,
-    ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
-    TestedNumberCard
+    TestedNumberCard,
+    ConfirmedCasesDetailsCard
   },
   data() {
     // 退院者グラフ
