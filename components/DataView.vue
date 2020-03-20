@@ -24,7 +24,7 @@
               target="_blank"
               rel="noopener"
             >
-              {{ $t('出典：京都府Webサイト') }}
+              {{ $t('出典：京都府・京都市・厚生労働省Webサイト') }}
               <v-icon
                 class="ExternalLinkIcon"
                 size="15"
