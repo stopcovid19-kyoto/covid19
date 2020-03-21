@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "3\/21\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267124.html",
+            "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市14例目）の発生について"
+        },
+        {
             "date": "3\/20\/2020",
             "url": "https:\/\/www.city.kyoto.lg.jp\/hokenfukushi\/page\/0000267120.html",
             "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市13例目）の発生について"

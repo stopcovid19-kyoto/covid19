@@ -221,7 +221,12 @@ export default {
         },
         {
           title: this.$t('東京都 対策サイト（このサイトの派生元）'),
-          link: 'https://stopcovid19.metro.tokyo.lg.jp/',
+          link: 'https://stopcovid19.metro.tokyo.lg.jp/'
+        },
+        {
+          title: this.$t('各地の対策サイト'),
+          link:
+            'https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md',
           divider: true
         }
       ]
