@@ -147,7 +147,7 @@
     <TextCard :title="$t('データについて')">
       <i18n
         tag="p"
-        path="本サイトで公表しているデータは、{catalogWebsite}より取得しています。（データは順次追加予定です）"
+        path="本サイトで公表しているデータは、{catalogWebsite}、{catalogWebsite2}、{catalogWebsite3}より取得しています。（データは順次追加予定です）"
       >
         <a
           href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F"
@@ -156,6 +156,22 @@
           place="catalogWebsite"
         >
           {{ $t('京都府') }}
+        </a>
+        <a
+          href="https://www.city.kyoto.lg.jp/hokenfukushi/page/0000266590.html"
+          target="_blank"
+          rel="noopener"
+          place="catalogWebsite2"
+        >
+          {{ $t('京都市') }}
+        </a>
+        <a
+          href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html"
+          target="_blank"
+          rel="noopener"
+          place="catalogWebsite3"
+        >
+          {{ $t('厚生労働省') }}
         </a>
       </i18n>
     </TextCard>
@@ -182,7 +198,7 @@
       </a>
       <br />
       <a href="mailto:stopcovid19.kyoto@gmail.com">
-        stopcovid19.kyoto@gmail.com
+        stopcovid19-kyoto運営事務局 ( stopcovid19.kyoto@gmail.com )
       </a>
     </TextCard>
   </div>
