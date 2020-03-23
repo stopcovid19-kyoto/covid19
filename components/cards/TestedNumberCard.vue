@@ -9,10 +9,9 @@
       :items="inspectionsItems"
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
-      :url="
-        'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html'
-      "
+      :url="'http://www.pref.kyoto.jp/kentai/pcrkensa.html'"
     />
+    <!--  :url="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html'" -->
     <!-- :url="'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'" -->
     <!-- :url="'https://code4sabae.github.io/covid19/index.html'" -->
     <!-- 件.tested = 検査数 -->
@@ -23,7 +22,7 @@
 {
   "ja": {
     "検査実施数": "検査実施数",
-    "都内": "都内",
+    "府内": "府内",
     "府内発生": "府内発生",
     "その他（チャーター便・クルーズ船）": "その他（チャーター便・クルーズ船）",
     "件": {
@@ -84,7 +83,7 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['都内'],
+      Data.inspections_summary.data['府内'],
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
