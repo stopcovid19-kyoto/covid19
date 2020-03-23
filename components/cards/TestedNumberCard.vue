@@ -23,7 +23,7 @@
 {
   "ja": {
     "検査実施数": "検査実施数",
-    "都内": "都内",
+    "府内": "府内",
     "府内発生": "府内発生",
     "その他（チャーター便・クルーズ船）": "その他（チャーター便・クルーズ船）",
     "件": {
@@ -84,7 +84,7 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['都内'],
+      Data.inspections_summary.data['府内'],
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
