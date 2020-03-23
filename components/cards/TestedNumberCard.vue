@@ -9,10 +9,9 @@
       :items="inspectionsItems"
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
-      :url="
-        'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html'
-      "
+      :url="'http://www.pref.kyoto.jp/kentai/pcrkensa.html'"
     />
+    <!--  :url="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html'" -->
     <!-- :url="'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'" -->
     <!-- :url="'https://code4sabae.github.io/covid19/index.html'" -->
     <!-- 件.tested = 検査数 -->
