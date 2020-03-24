@@ -12,7 +12,11 @@
       :fixed-header="true"
       :mobile-breakpoint="0"
       class="cardTable"
-    />
+    >
+      <template v-slot:item.詳細="{ item }">
+        <a :href="item.詳細" target="_blank">外部サイト</a>
+      </template>
+    </v-data-table>
     <div class="note">
       {{ $t('※退院には、死亡退院を含む') }}
     </div>
