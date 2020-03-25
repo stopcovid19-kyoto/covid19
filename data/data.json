@@ -336,7 +336,7 @@
                 "退院": "",
                 "date": "2020-03-25",
                 "備考": "?",
-                "詳細": ""
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000267/267312/200325oshirase(19).pdf"
             },
             {
                 "No": 29,
@@ -348,7 +348,7 @@
                 "退院": "",
                 "date": "2020-03-25",
                 "備考": "?",
-                "詳細": ""
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000267/267328/200325oshirase(20).pdf"
             },
             {
                 "No": 30,
@@ -359,8 +359,8 @@
                 "性別": "女性",
                 "退院": "",
                 "date": "2020-03-25",
-                "備考": "?",
-                "詳細": ""
+                "備考": "フランス，ルクセンブルグ渡航歴",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000267/267340/200325oshirase(21).pdf"
             },
             {
                 "No": 31,
@@ -371,8 +371,8 @@
                 "性別": "女性",
                 "退院": "",
                 "date": "2020-03-25",
-                "備考": "?",
-                "詳細": ""
+                "備考": "27例目の濃厚接触者",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000267/267341/200325oshirase(22).pdf"
             }
         ]
     },
