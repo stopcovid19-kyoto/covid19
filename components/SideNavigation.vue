@@ -108,6 +108,11 @@ export default {
           divider: true
         },
         {
+          title: this.$t('もうひとつの京都部版対策サイト（非公式）'),
+          link: 'https://stop-covid19-kyoto.netlify.com/',
+          divider: true
+        },
+        {
           title: this.$t('京都市公式情報'),
           link: 'https://www.city.kyoto.lg.jp/hokenfukushi/page/0000266590.html'
         },
