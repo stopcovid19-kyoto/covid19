@@ -2,38 +2,28 @@
     "newsItems": [
         {
             "date": "3\/26\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267471.html",
+            "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市24例目）の発生について"
+        },
+        {
+            "date": "3\/26\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267473.html",
+            "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市23例目）の発生について"
+        },
+        {
+            "date": "3\/26\/2020",
             "url": "http://www.pref.kyoto.jp/kentai/news/documents/20200326-32.pdf",
             "text": "（京都府）新型コロナウイルス感染症患者の発生について "
-        },
-        {
-            "date": "3\/25\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267341.html",
-            "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市22例目）の発生について"
-        },
-        {
-            "date": "3\/25\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267340.html",
-            "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市21例目）の発生について"
-        },
-        {
-            "date": "3\/25\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267328.html",
-            "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市20例目）の発生について"
-        },
-        {
-            "date": "3\/25\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267312.html",
-            "text": "（京都市）【緊急情報】新型コロナウイルス感染症の患者（本市19例目）の発生について"
-        },
-        {
-            "date": "3\/25\/2020",
-            "url": "https:\/\/www.city.kyoto.lg.jp\/hokenfukushi\/page\/0000266590.html",
-            "text": "（京都市）【緊急情報】新型コロナウイルス感染症に関するお知らせ"
         },
         {
             "date": "3\/26\/2020",
             "url": "http:\/\/www.pref.kyoto.jp\/kentai\/news\/novelcoronavirus.html",
             "text": "（京都府）新型コロナウイルス感染症に関連する情報について"
+        },
+        {
+            "date": "3\/26\/2020",
+            "url": "https:\/\/www.city.kyoto.lg.jp\/hokenfukushi\/page\/0000266590.html",
+            "text": "（京都市）【緊急情報】新型コロナウイルス感染症に関するお知らせ"
         }
     ]
 }
