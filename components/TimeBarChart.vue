@@ -9,6 +9,9 @@
       :options="displayOption"
       :height="240"
     />
+    <div class="note">
+      {{ $t('※連続していない日付が有る場合はご注意下さい') }}
+    </div>
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
         :l-text="displayInfo.lText"
