@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <time-bar-chart
-      :title="$t('相談人数')"
+      :title="$t('専用相談窓口 相談件数')"
       :title-id="'number-of-contact'"
       :chart-id="'time-bar-chart-contact'"
       :chart-data="contactsGraph"
@@ -15,7 +15,7 @@
 <i18n>
 {
   "ja": {
-    "相談人数": "相談人数",
+    "専用相談窓口 相談件数": "専用相談窓口 相談件数",
     "件": {
       "contact": "件"
     }
@@ -27,19 +27,19 @@
     }
   },
   "zh-cn": {
-    "相談人数": "送检件数",
+    "専用相談窓口 相談件数": "送检件数",
     "件": {
       "contact": "件"
     }
   },
   "zh-tw": {
-    "相談人数": "送檢件數",
+    "専用相談窓口 相談件数": "送檢件數",
     "件": {
       "contact": "件"
     }
   },
   "ko": {
-    "相談人数": "검사실시수",
+    "専用相談窓口 相談件数": "검사실시수",
     "件": {
       "contact": "건"
     }
@@ -63,7 +63,7 @@ export default {
     TimeBarChart
   },
   data() {
-    // 相談人数グラフ
+    // 専用相談窓口 相談件数グラフ
     const contactsGraph = formatGraph(Data.contacts.data)
 
     const data = {

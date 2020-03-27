@@ -61,7 +61,7 @@
 
 <script>
 import Data from '@/data/data.json'
-// import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
@@ -69,7 +69,7 @@ import ContactNumberCard from '@/components/cards/ContactNumberCard.vue'
 
 export default {
   components: {
-    // ConfirmedCasesDetailsCard,
+    ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
     TestedNumberCard,
@@ -95,7 +95,7 @@ export default {
         updatedAt = Data.inspections_summary.date
         break
       case 'number-of-contact':
-        title = this.$t('相談人数')
+        title = this.$t('専用相談窓口 相談件数')
         updatedAt = Data.contact.date
         break
     }
