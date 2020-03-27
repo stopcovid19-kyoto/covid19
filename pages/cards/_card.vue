@@ -12,6 +12,9 @@
     <confirmed-cases-details-card
       v-else-if="this.$route.params.card == 'details-of-confirmed-cases'"
     />
+    <contact-number-card
+      v-else-if="this.$route.params.card == 'number-of-contact'"
+    />
   </div>
 </template>
 
@@ -58,17 +61,19 @@
 
 <script>
 import Data from '@/data/data.json'
-// import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+import ContactNumberCard from '@/components/cards/ContactNumberCard.vue'
 
 export default {
   components: {
-    // ConfirmedCasesDetailsCard,
+    ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
-    TestedNumberCard
+    TestedNumberCard,
+    ContactNumberCard
   },
   data() {
     let title, updatedAt
@@ -88,6 +93,10 @@ export default {
       case 'number-of-tested':
         title = this.$t('検査実施人数')
         updatedAt = Data.inspections_summary.date
+        break
+      case 'number-of-contact':
+        title = this.$t('専用相談窓口 相談件数')
+        updatedAt = Data.contact.date
         break
     }
 
