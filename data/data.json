@@ -1,7 +1,7 @@
 {
-    "lastUpdate": "2020\/03\/28 22:30",
+    "lastUpdate": "2020\/03\/28 23:15",
     "patients": {
-        "date": "2020\/03\/28 22:30",
+        "date": "2020\/03\/28 23:15",
         "data": [
             {
                 "No": 1,
@@ -73,7 +73,7 @@
                 "退院": "2020-03-14",
                 "date": "2020-03-05",
                 "備考": "居住は大阪府（実家が乙訓保健所管内）。フィリピン滞在歴",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/200305-6.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/200305-6.pdf"
             },
             {
                 "No": 7,
@@ -85,7 +85,7 @@
                 "退院": "2020-03-25",
                 "date": "2020-03-06",
                 "備考": "6例目の濃厚接触者",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200306-7.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200306-7.pdf"
             },
             {
                 "No": 8,
@@ -97,7 +97,7 @@
                 "退院": "2020-03-20",
                 "date": "2020-03-07",
                 "備考": "大阪のライブハウスを利用",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200307-8_1.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200307-8_1.pdf"
             },
             {
                 "No": 9,
@@ -109,7 +109,7 @@
                 "退院": "",
                 "date": "2020-03-09",
                 "備考": "8例目の父親",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200309-91011.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200309-91011.pdf"
             },
             {
                 "No": 10,
@@ -121,7 +121,7 @@
                 "退院": "2020-03-25",
                 "date": "2020-03-09",
                 "備考": "8例目の母親",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200309-91011.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200309-91011.pdf"
             },
             {
                 "No": 11,
@@ -133,7 +133,7 @@
                 "退院": "2020-03-16",
                 "date": "2020-03-09",
                 "備考": "8例目の同僚看護師",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200309-91011.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200309-91011.pdf"
             },
             {
                 "No": 12,
@@ -157,7 +157,7 @@
                 "退院": "2020-03-26",
                 "date": "2020-03-10",
                 "備考": "8例目の濃厚接触者",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200310-13.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200310-13.pdf"
             },
             {
                 "No": 14,
@@ -193,7 +193,7 @@
                 "退院": "",
                 "date": "2020-03-12",
                 "備考": "府内の病院内の理髪店店主",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200312-16.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200312-16.pdf"
             },
             {
                 "No": 17,
@@ -241,7 +241,7 @@
                 "退院": "",
                 "date": "2020-03-18",
                 "備考": "?",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200318-20.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200318-20.pdf"
             },
             {
                 "No": 21,
@@ -385,7 +385,7 @@
                 "退院": "",
                 "date": "2020-03-26",
                 "備考": "3/20に米国留学から帰国",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200326-32.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200326-32.pdf"
             },
             {
                 "No": 33,
@@ -421,7 +421,7 @@
                 "退院": "",
                 "date": "2020-03-27",
                 "備考": "居住は大阪市（実家が山城北保健所管内）。職場（大阪市内）の同僚に陽性者",
-                "詳細": "http://www.pref.kyoto.jp/kentai/news/documents/20200327-35.pdf"
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200327-35.pdf"
             },
             {
                 "No": 36,
@@ -451,28 +451,16 @@
                 "No": 38,
                 "リリース日": "2020-03-28T00:00:00.000Z",
                 "曜日": 43854,
-                "居住地": "",
+                "居住地": "山城北保健所管内",
                 "年代": "20代",
                 "性別": "女性",
                 "退院": "",
                 "date": "2020-03-28",
-                "備考": "",
-                "詳細": "愛媛県の感染者と接触"
+                "備考": "愛媛県の感染者と接触",
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200328-38-39-40.pdf"
             },
             {
                 "No": 39,
-                "リリース日": "2020-03-28T00:00:00.000Z",
-                "曜日": 43854,
-                "居住地": "",
-                "年代": "40代",
-                "性別": "女性",
-                "退院": "",
-                "date": "2020-03-28",
-                "備考": "35例目の受診した医療機関の看護師",
-                "詳細": ""
-            },
-            {
-                "No": 40,
                 "リリース日": "2020-03-28T00:00:00.000Z",
                 "曜日": 43854,
                 "居住地": "",
@@ -481,7 +469,19 @@
                 "退院": "",
                 "date": "2020-03-28",
                 "備考": "35例目の母親",
-                "詳細": ""
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200328-38-39-40.pdf"
+            },
+            {
+                "No": 40,
+                "リリース日": "2020-03-28T00:00:00.000Z",
+                "曜日": 43854,
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "",
+                "date": "2020-03-28",
+                "備考": "35例目の受診した医療機関の看護師",
+                "詳細": "https://www.pref.kyoto.jp/kentai/news/documents/20200328-38-39-40.pdf"
             }
         ]
     },
