@@ -1,7 +1,7 @@
 {
-    "lastUpdate": "2020\/03\/28 23:30",
+    "lastUpdate": "2020\/03\/28 23:50",
     "patients": {
-        "date": "2020\/03\/28 23:15",
+        "date": "2020\/03\/28 23:50",
         "data": [
             {
                 "No": 1,
@@ -433,7 +433,7 @@
                 "退院": "",
                 "date": "2020-03-28",
                 "備考": "",
-                "詳細": ""
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000267/267632/200328oshirase(25).pdf"
             },
             {
                 "No": 37,
@@ -445,7 +445,7 @@
                 "退院": "",
                 "date": "2020-03-28",
                 "備考": "イギリス渡航歴",
-                "詳細": ""
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000267/267633/200328oshirase(26).pdf"
             },
             {
                 "No": 38,

@@ -2,13 +2,18 @@
     "newsItems": [
         {
             "date": "3\/28\/2020",
-            "url": "http://www.pref.kyoto.jp/kentai/news/documents/20200328-38-39-40.pdf",
-            "text": "（京都府）新型コロナウイルス感染症患者の発生について "
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267633.html",
+            "text": "（京都市）新型コロナウイルス感染症の患者（本市26例目）の発生について"
         },
         {
-            "date": "3\/27\/2020",
-            "url": "https://www.pref.kyoto.jp/kentai/news/documents/20200327-35.pdf",
-            "text": "（京都府）新型コロナウイルス感染症患者の発生について"
+            "date": "3\/28\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267632.html",
+            "text": "（京都市）新型コロナウイルス感染症の患者（本市25例目）の発生について"
+        },
+        {
+            "date": "3\/28\/2020",
+            "url": "http://www.pref.kyoto.jp/kentai/news/documents/20200328-38-39-40.pdf",
+            "text": "（京都府）新型コロナウイルス感染症患者の発生について "
         },
         {
             "date": "3\/27\/2020",
