@@ -10,7 +10,11 @@
       :height="240"
     />
     <div class="note">
-      {{ $t('※連続していない日付が有る場合はご注意下さい') }}
+      {{
+        $t(
+          '※発表数値の無い日はゼロとして表示され、次回表示日に累積加算されます。'
+        )
+      }}
     </div>
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
