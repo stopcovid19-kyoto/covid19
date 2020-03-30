@@ -2,8 +2,8 @@
     "newsItems": [
         {
             "date": "3\/30\/2020",
-            "url": "https://www.city.kyoto.lg.jp/sogo/page/0000267647.html",
-            "text": "（京都市）新型コロナウイルスの感染拡大防止に向けた学生等への注意喚起について（緊急要請）"
+            "url": "http://www.pref.kyoto.jp/kentai/news/documents/20200330-48-49.pdf",
+            "text": "（京都府）新型コロナウイルス感染症患者の発生について(府48・49例目)"
         },
         {
             "date": "3\/30\/2020",
@@ -11,9 +11,14 @@
             "text": "（京都市）新型コロナウイルス感染症の患者（本市33・34例目）の発生について"
         },
         {
-            "date": "3\/29\/2020",
-            "url": "http://www.pref.kyoto.jp/kentai/news/documents/20200329-45.pdf",
-            "text": "（京都府）新型コロナウイルス感染症患者の発生について"
+            "date": "3\/30\/2020",
+            "url": "https://www.city.kyoto.lg.jp/sogo/page/0000267647.html",
+            "text": "（京都市）新型コロナウイルスの感染拡大防止に向けた学生等への注意喚起について（緊急要請）"
+        },
+        {
+            "date": "3\/30\/2020",
+            "url": "https://www.city.kyoto.lg.jp/kensetu/page/0000256596.html",
+            "text": "（京都市）公園を利用される方へのお願い"
         },
         {
             "date": "3\/30\/2020",
@@ -22,7 +27,7 @@
         },
         {
             "date": "3\/30\/2020",
-            "url": "http:\/\/www.pref.kyoto.jp\/kentai\/news\/novelcoronavirus.html",
+            "url": "https:\/\/www.pref.kyoto.jp\/kentai\/news\/novelcoronavirus.html",
             "text": "（京都府）新型コロナウイルス感染症に関連する情報について"
         }
     ]
