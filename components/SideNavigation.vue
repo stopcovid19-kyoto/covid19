@@ -103,7 +103,9 @@ export default {
           link: 'https://www.city.kyoto.lg.jp/sogo/page/0000267647.html'
         },
         {
-          title: this.$t('（京都市）帰国者と帰国者を受け入れる方々へのお願い'),
+          title: this.$t(
+            '（京都市）京都市長からの市民，事業者の皆様へのメッセージ'
+          ),
           link: 'https://www.city.kyoto.lg.jp/gyozai/page/0000267520.html',
           divider: true
         },
