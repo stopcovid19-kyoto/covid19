@@ -87,7 +87,26 @@ export default {
         {
           icon: 'mdi-domain',
           title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
+          link: this.localePath('/worker')
+        },
+        {
+          title: this.$t(
+            '（京都府・京都市）帰国者と帰国者を受け入れる方々へのお願い'
+          ),
+          link:
+            'https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000267/267548/200327kkm.pdf'
+        },
+        {
+          title: this.$t(
+            '（京都市）新型コロナウイルスの感染拡大防止に向けた学生等への注意喚起について（緊急要請）'
+          ),
+          link: 'https://www.city.kyoto.lg.jp/sogo/page/0000267647.html'
+        },
+        {
+          title: this.$t(
+            '（京都市）京都市長からの市民，事業者の皆様へのメッセージ'
+          ),
+          link: 'https://www.city.kyoto.lg.jp/gyozai/page/0000267520.html',
           divider: true
         },
         {
