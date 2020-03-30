@@ -2,7 +2,12 @@
     "newsItems": [
         {
             "date": "3\/30\/2020",
-            "url": "http://www.pref.kyoto.jp/kentai/news/documents/20200330-48-49.pdf",
+            "url": "https://www.pref.kyoto.jp/kentai/news/documents/20200330-52-53-54.pdf",
+            "text": "（京都府）新型コロナウイルス感染症患者の発生について(府52・53・54例目)"
+        },
+        {
+            "date": "3\/30\/2020",
+            "url": "https://www.pref.kyoto.jp/kentai/news/documents/20200330-48-49.pdf",
             "text": "（京都府）新型コロナウイルス感染症患者の発生について(府48・49例目)"
         },
         {
