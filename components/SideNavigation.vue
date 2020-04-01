@@ -248,8 +248,32 @@ export default {
           divider: true
         },
         {
-          title: this.$t('東京都 対策サイト（このサイトの派生元）'),
+          title: this.$t('東京都 対策サイト（公式：このサイトの派生元）'),
           link: 'https://stopcovid19.metro.tokyo.lg.jp/'
+        },
+        {
+          title: this.$t('大阪府の対策サイト（公式）'),
+          link: 'https://covid19-osaka.info/'
+        },
+        {
+          title: this.$t('滋賀県の対策サイト（公式）'),
+          link: 'https://stopcovid19.pref.shiga.jp/'
+        },
+        {
+          title: this.$t('兵庫県の対策サイト（非公式）'),
+          link: 'https://stop-covid19-hyogo.org/'
+        },
+        {
+          title: this.$t('奈良県の対策サイト（非公式）'),
+          link: 'https://stopcovid19.code4nara.org/'
+        },
+        {
+          title: this.$t('三重県の対策サイト（非公式）'),
+          link: 'https://mie.stopcovid19.jp/'
+        },
+        {
+          title: this.$t('福井県の対策サイト（非公式）'),
+          link: 'https://covid19-fukui.bosai-signal.jp/'
         },
         {
           title: this.$t('各地の対策サイト'),
