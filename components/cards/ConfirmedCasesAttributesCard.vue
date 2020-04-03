@@ -7,7 +7,7 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="'http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'"
+      :url="'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'"
     />
   </v-col>
 </template>

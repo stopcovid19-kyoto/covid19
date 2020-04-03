@@ -2,23 +2,33 @@
     "newsItems": [
         {
             "date": "4\/03\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000268010.html",
+            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府102~106例目、市59-63例目）"
+        },
+        {
+            "date": "4\/03\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000268009.html",
+            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府101例目、市58例目）"
+        },
+        {
+            "date": "4\/03\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000268008.html",
+            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府99,100例目、市56,57例目）"
+        },
+        {
+            "date": "4\/03\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000268007.html",
+            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府98例目、市55例目）"
+        },
+        {
+            "date": "4\/03\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000268006.html",
+            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府96,97例目、市53,54例目）"
+        },
+        {
+            "date": "4\/03\/2020",
             "url": "https://www.pref.kyoto.jp/kentai/news/documents/2020403-89-95.pdf",
             "text": "（京都府）新型コロナウイルス感染症患者の発生について(府89-95例目)"
-        },
-        {
-            "date": "4\/02\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267907.html",
-            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府88例目、市52例目）"
-        },
-        {
-            "date": "4\/02\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267905.html",
-            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府87例目、市51例目）"
-        },
-        {
-            "date": "4\/02\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000267904.html",
-            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府78-81,86例目、市46-50例目）"
         },
         {
             "date": "4\/02\/2020",

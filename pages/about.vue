@@ -150,7 +150,7 @@
         path="本サイトで公表しているデータは、{catalogWebsite}、{catalogWebsite2}、{catalogWebsite3}より取得しています。（データは順次追加予定です）"
       >
         <a
-          href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F"
+          href="https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
