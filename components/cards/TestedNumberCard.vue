@@ -7,7 +7,7 @@
       :chart-data="inspectionsGraph"
       :date="Data.inspections.date"
       :unit="$t('人')"
-      :url="'http://www.pref.kyoto.jp/kentai/pcrkensa.html'"
+      :url="'https://www.pref.kyoto.jp/kentai/corona/pcrkensa.html'"
     />
     <!-- 
     <time-stacked-bar-chart
