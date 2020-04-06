@@ -1,24 +1,24 @@
 {
     "newsItems": [
         {
+            "date": "4\/06\/2020",
+            "url": "https://www.city.kyoto.lg.jp/kyoiku/page/0000268043.html",
+            "text": "（京都市）新型コロナウイルス感染拡大防止を踏まえた一斉臨時休業（休校）の実施について"
+        },
+        {
+            "date": "4\/06\/2020",
+            "url": "https://www.pref.kyoto.jp/kentai/news/documents/20200406-126.pdf",
+            "text": "（京都府）新型コロナウイルス感染症患者の発生について(府126例目)"
+        },
+        {
             "date": "4\/05\/2020",
             "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000268016.html",
             "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府120-125例目、市71-76例目）"
         },
         {
-            "date": "4\/05\/2020",
-            "url": "https://www.pref.kyoto.jp/kentai/news/documents/20200405-117-119.pdf",
-            "text": "（京都府）新型コロナウイルス感染症患者の発生について(府117-119例目)"
-        },
-        {
             "date": "4\/02\/2020",
             "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000267887.html",
             "text": "（京都府・京都市）京都府民・京都市民の皆様へ緊急のお願い"
-        },
-        {
-            "date": "4\/01\/2020",
-            "url": "https://www.city.kyoto.lg.jp/sogo/page/0000267647.html",
-            "text": "（京都市）新型コロナウイルスの感染拡大防止に向けた学生等への注意喚起について（緊急要請）"
         },
         {
             "date": "4\/02\/2020",
