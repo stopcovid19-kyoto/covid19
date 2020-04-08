@@ -98,6 +98,12 @@ export default {
         },
         {
           title: this.$t(
+            '（京都市）新型コロナウイルス感染拡大防止を踏まえた一斉臨時休業（休校）の実施について'
+          ),
+          link: 'https://www.city.kyoto.lg.jp/kyoiku/page/0000268043.html'
+        },
+        {
+          title: this.$t(
             '（京都市）新型コロナウイルスの感染拡大防止に向けた学生等への注意喚起について（緊急要請）'
           ),
           link: 'https://www.city.kyoto.lg.jp/sogo/page/0000267647.html'
