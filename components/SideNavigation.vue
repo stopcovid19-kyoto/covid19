@@ -76,8 +76,13 @@ export default {
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('京都府内の最新感染動向'),
+          title: this.$t('京都府内の最新感染動向（本サイト）'),
           link: this.localePath('/')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('京都市内の最新感染動向（京都市サイト）'),
+          link: 'https://www.city.kyoto.lg.jp/sogo/page/0000268245.html'
         },
         {
           icon: 'parent',
