@@ -1,7 +1,7 @@
 {
-    "lastUpdate": "2020\/04\/11 22:30",
+    "lastUpdate": "2020\/04\/12 01:30",
     "patients": {
-        "date": "2020\/04\/11 7:30",
+        "date": "2020\/04\/12 01:30",
         "data": [
             {
                 "No": 1,
@@ -2038,10 +2038,10 @@
                 "居住地": "京都市",
                 "年代": "70代",
                 "性別": "男性",
-                "退院": "",
+                "退院": "2020-04-11",
                 "date": "2020-04-10",
                 "備考": "市107例目:2020/4/11死亡",
-                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268402/200410oshirase(106-111).pdf"
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268407/200411oshirase(sibou).pdf"
             },
             {
                 "No": 171,
@@ -2050,10 +2050,10 @@
                 "居住地": "京都市",
                 "年代": "70代",
                 "性別": "女性",
-                "退院": "",
+                "退院": "2020-04-11",
                 "date": "2020-04-10",
                 "備考": "市108例目:市109例目(府172例目)と同病室。2020/4/11死亡",
-                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268402/200410oshirase(106-111).pdf"
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268407/200411oshirase(sibou).pdf"
             },
             {
                 "No": 172,
@@ -2112,8 +2112,8 @@
                 "性別": "男性",
                 "退院": "",
                 "date": "2020-04-11",
-                "備考": "市112例目:?",
-                "詳細": ""
+                "備考": "市112例目:滋賀県発生患者の濃厚接触者",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268406/200411oshirase(112-117).pdf"
             },
             {
                 "No": 177,
@@ -2124,8 +2124,8 @@
                 "性別": "女性",
                 "退院": "",
                 "date": "2020-04-11",
-                "備考": "市112例目:京都府下?",
-                "詳細": ""
+                "備考": "市113例目:京都府下?",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268406/200411oshirase(112-117).pdf"
             },
             {
                 "No": 178,
@@ -2136,8 +2136,8 @@
                 "性別": "男性",
                 "退院": "",
                 "date": "2020-04-11",
-                "備考": "市112例目:?",
-                "詳細": ""
+                "備考": "市114例目:?",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268406/200411oshirase(112-117).pdf"
             },
             {
                 "No": 179,
@@ -2148,8 +2148,8 @@
                 "性別": "女性",
                 "退院": "",
                 "date": "2020-04-11",
-                "備考": "市112例目:?",
-                "詳細": ""
+                "備考": "市115例目:?",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268406/200411oshirase(112-117).pdf"
             },
             {
                 "No": 180,
@@ -2160,8 +2160,8 @@
                 "性別": "女性",
                 "退院": "",
                 "date": "2020-04-11",
-                "備考": "市112例目:?",
-                "詳細": ""
+                "備考": "市116例目:市98例目(府158例目)の濃厚接触者",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268406/200411oshirase(112-117).pdf"
             },
             {
                 "No": 181,
@@ -2172,8 +2172,8 @@
                 "性別": "女性",
                 "退院": "",
                 "date": "2020-04-11",
-                "備考": "市112例目:?",
-                "詳細": ""
+                "備考": "市117例目:?",
+                "詳細": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000268/268406/200411oshirase(112-117).pdf"
             }
         ]
     },
