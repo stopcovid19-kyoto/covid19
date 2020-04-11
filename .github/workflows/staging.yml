@@ -5,7 +5,7 @@ on:
     branches:
       - staging
   schedule:
-    - cron:  '0 21 * * *'
+    - cron:  '40 */1 * * *'
 
 jobs:
   deploy:
