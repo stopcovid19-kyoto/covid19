@@ -34,7 +34,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add *.json
+        git add data/covid-19-kyoto.json
         git commit -m "Automated update."
     - name: Push changes
       uses: ad-m/github-push-action@master
