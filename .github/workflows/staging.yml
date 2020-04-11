@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - staging
+  schedule:
+    - cron:  '30 */1 * * *'
 
 jobs:
   deploy:
