@@ -7,21 +7,19 @@ type DataType = {
       value: number
       children: [
         {
-          attr: '入院中'
+          attr: '退院'
           value: number
-          children: [
-            {
-              attr: '症状が無い方'
-              value: number
-            },
-            {
-              attr: '症状がある方'
-              value: number
-            }
-          ]
         },
         {
-          attr: '退院'
+          attr: '入院中'
+          value: number
+        },
+        {
+          attr: '宿泊施設'
+          value: number
+        },
+        {
+          attr: '自宅療養'
           value: number
         },
         {

@@ -27,8 +27,19 @@
         </div>
       </div>
       <ul class="group">
+        <li class="item recovered">
+          <div class="gutter">
+            <div class="box">
+              <span>{{ $t('退院') }}</span>
+              <span>
+                <b>{{ 退院 }}</b>
+                <span class="unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
+        </li>
         <li class="item in-hospital">
-          <div class="gutter oneThird">
+          <div class="gutter">
             <div class="box">
               <span>{{ $t('入院中（調整中含）') }}</span>
               <span>
@@ -37,32 +48,28 @@
               </span>
             </div>
           </div>
-          <ul class="group">
-            <li class="item mild">
-              <div class="gutter">
-                <div class="box short">
-                  <!-- eslint-disable vue/no-v-html-->
-                  <span v-html="$t('症状が無い方')" />
-                  <!-- eslint-enable vue/no-v-html-->
-                  <span>
-                    <b>{{ 軽症中等症 }}</b>
-                    <span class="unit">{{ $t('人') }}</span>
-                  </span>
-                </div>
-              </div>
-            </li>
-            <li class="item serious">
-              <div class="gutter">
-                <div class="box short">
-                  <span>{{ $t('症状がある方') }}</span>
-                  <span>
-                    <b>{{ 症状がある方 }}</b>
-                    <span class="unit">{{ $t('人') }}</span>
-                  </span>
-                </div>
-              </div>
-            </li>
-          </ul>
+        </li>
+        <li class="item in-hotel">
+          <div class="gutter">
+            <div class="box">
+              <span>{{ $t('宿泊施設') }}</span>
+              <span>
+                <b>{{ 宿泊施設 }}</b>
+                <span class="unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="item in-home">
+          <div class="gutter">
+            <div class="box">
+              <span>{{ $t('自宅療養') }}</span>
+              <span>
+                <b>{{ 自宅療養 }}</b>
+                <span class="unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
         </li>
         <li class="item deceased">
           <div class="gutter">
@@ -70,17 +77,6 @@
               <span>{{ $t('死亡') }}</span>
               <span>
                 <b>{{ 死亡 }}</b>
-                <span class="unit">{{ $t('人') }}</span>
-              </span>
-            </div>
-          </div>
-        </li>
-        <li class="item recovered">
-          <div class="gutter">
-            <div class="box">
-              <span>{{ $t('退院') }}</span>
-              <span>
-                <b>{{ 退院 }}</b>
                 <span class="unit">{{ $t('人') }}</span>
               </span>
             </div>
@@ -227,6 +223,24 @@ export default {
     width: calc(100% / 3 * 2);
   }
 }
+// 宿泊施設
+.item.in-hotel {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% / 5 * 3);
+  > .group {
+    width: calc(100% / 3 * 2);
+  }
+}
+// 自宅療養
+.item.in-home {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% / 5 * 3);
+  > .group {
+    width: calc(100% / 3 * 2);
+  }
+}
 // 症状が無い方
 .item.mild {
   width: calc(100% / 2);
@@ -246,6 +260,8 @@ export default {
 
 .item.positive > .gutter > .box::before,
 .item.in-hospital > .gutter > .box::before,
+.item.in-hotel > .gutter > .box::before,
+.item.in-home > .gutter > .box::before,
 .item.serious > .gutter > .box::before,
 .item.recovered > .gutter > .box::before {
   content: '';
@@ -257,6 +273,22 @@ export default {
 }
 .item.positive > .gutter > .box::before,
 .item.in-hospital > .gutter > .box::before {
+  border-right: none;
+  top: -3px;
+  right: calc(-100% - 3px - 3px);
+  width: calc(100% + 3px + 3px);
+  border-left: none;
+  border-right: none;
+}
+.item.in-hotel > .gutter > .box::before {
+  border-right: none;
+  top: -3px;
+  right: calc(-100% - 3px - 3px);
+  width: calc(100% + 3px + 3px);
+  border-left: none;
+  border-right: none;
+}
+.item.in-home > .gutter > .box::before {
   border-right: none;
   top: -3px;
   right: calc(-100% - 3px - 3px);
@@ -304,6 +336,8 @@ export default {
   }
   .item.positive > .gutter > .box::before,
   .item.in-hospital > .gutter > .box::before,
+  .item.in-hotel > .gutter > .box::before,
+  .item.in-home > .gutter > .box::before,
   .item.serious > .gutter > .box::before,
   .item.recovered > .gutter > .box::before {
     border-width: px2vw($bdw, $vw);
@@ -311,6 +345,16 @@ export default {
   }
   .item.positive > .gutter > .box::before,
   .item.in-hospital > .gutter > .box::before {
+    top: px2vw(-$bdw, $vw);
+    right: calc(-100% - #{px2vw($bdw * 2, $vw)} + 0.3px);
+    width: calc(100% + #{px2vw($bdw * 2, $vw)});
+  }
+  .item.in-hotel > .gutter > .box::before {
+    top: px2vw(-$bdw, $vw);
+    right: calc(-100% - #{px2vw($bdw * 2, $vw)} + 0.3px);
+    width: calc(100% + #{px2vw($bdw * 2, $vw)});
+  }
+  .item.in-home > .gutter > .box::before {
     top: px2vw(-$bdw, $vw);
     right: calc(-100% - #{px2vw($bdw * 2, $vw)} + 0.3px);
     width: calc(100% + #{px2vw($bdw * 2, $vw)});
