@@ -21,7 +21,7 @@
             <br />{{ $t('(累積)') }}
           </span>
           <span>
-            <b>{{ 陽性物数 }}</b>
+            <b>{{ 陽性患者数 }}</b>
             <span class="unit">{{ $t('人') }}</span>
           </span>
         </div>
@@ -93,12 +93,12 @@
 export default {
   props: [
     '検査実施人数',
-    '陽性物数',
+    '陽性患者数',
+    '退院',
     '入院中',
-    '軽症中等症',
-    '症状がある方',
-    '死亡',
-    '退院'
+    '宿泊施設',
+    '自宅療養',
+    '死亡'
   ],
   methods: {
     /** 桁数に応じて位置の調整をする */
@@ -211,59 +211,50 @@ export default {
   justify-content: space-between;
   width: calc(100% / 7 * 6);
   > .group {
-    width: calc(100% / 6 * 5);
+    width: calc(100% / 7 * 5);
+  }
+}
+// 退院
+.item.recovered {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% / 5);
+  > .gutter > .box {
+    border-color: #ff9999;
+    color: #ff9999;
   }
 }
 // 入院
 .item.in-hospital {
   display: flex;
   justify-content: space-between;
-  width: calc(100% / 5 * 3);
-  > .group {
-    width: calc(100% / 3 * 2);
-  }
+  width: calc(100% / 5);
 }
 // 宿泊施設
 .item.in-hotel {
   display: flex;
   justify-content: space-between;
-  width: calc(100% / 5 * 3);
-  > .group {
-    width: calc(100% / 3 * 2);
-  }
+  width: calc(100% / 5);
 }
 // 自宅療養
 .item.in-home {
   display: flex;
   justify-content: space-between;
-  width: calc(100% / 5 * 3);
-  > .group {
-    width: calc(100% / 3 * 2);
-  }
-}
-// 症状が無い方
-.item.mild {
-  width: calc(100% / 2);
-}
-// 症状がある方
-.item.serious {
-  width: calc(100% / 2);
+  width: calc(100% / 5);
 }
 // 死亡
 .item.deceased {
-  width: calc(100% / 5);
-}
-// 退院
-.item.recovered {
+  display: flex;
+  justify-content: space-between;
   width: calc(100% / 5);
 }
 
 .item.positive > .gutter > .box::before,
+.item.recovered > .gutter > .box::before,
 .item.in-hospital > .gutter > .box::before,
 .item.in-hotel > .gutter > .box::before,
 .item.in-home > .gutter > .box::before,
-.item.serious > .gutter > .box::before,
-.item.recovered > .gutter > .box::before {
+.item.deceased > .gutter > .box::before {
   content: '';
   display: block;
   border: 3px solid $green-1;
@@ -271,41 +262,29 @@ export default {
   position: absolute;
   height: 32px;
 }
-.item.positive > .gutter > .box::before,
-.item.in-hospital > .gutter > .box::before {
-  border-right: none;
+.item.positive > .gutter > .box::before {
   top: -3px;
   right: calc(-100% - 3px - 3px);
   width: calc(100% + 3px + 3px);
   border-left: none;
   border-right: none;
 }
+.item.recovered > .gutter > .box::before,
+.item.in-hospital > .gutter > .box::before,
+.item.in-home > .gutter > .box::before,
 .item.in-hotel > .gutter > .box::before {
-  border-right: none;
-  top: -3px;
-  right: calc(-100% - 3px - 3px);
-  width: calc(100% + 3px + 3px);
-  border-left: none;
-  border-right: none;
-}
-.item.in-home > .gutter > .box::before {
-  border-right: none;
-  top: -3px;
-  right: calc(-100% - 3px - 3px);
-  width: calc(100% + 3px + 3px);
-  border-left: none;
-  border-right: none;
-}
-.item.serious > .gutter > .box::before,
-.item.recovered > .gutter > .box::before {
+  //top: -3px;
   top: calc(-35px - 3px);
+  //right: calc(-100% - 3px - 3px);
+  right: -3px;
+  width: calc(100% + 3px + 3px);
+  border-left: none;
+  border-right: none;
+}
+.item.deceased > .gutter > .box::before {
+  top: calc(-35px - 6px);
   right: -3px;
   border-left: none;
-}
-.item.serious > .gutter > .box::before {
-  width: 200%;
-}
-.item.recovered > .gutter > .box::before {
   width: 520%;
 }
 
@@ -335,32 +314,24 @@ export default {
     font-size: px2vw($fz, $vw);
   }
   .item.positive > .gutter > .box::before,
+  .item.recovered > .gutter > .box::before,
   .item.in-hospital > .gutter > .box::before,
   .item.in-hotel > .gutter > .box::before,
   .item.in-home > .gutter > .box::before,
-  .item.serious > .gutter > .box::before,
-  .item.recovered > .gutter > .box::before {
+  .item.deceased > .gutter > .box::before {
     border-width: px2vw($bdw, $vw);
     height: px2vw($boxdiff - $bdw, $vw);
   }
-  .item.positive > .gutter > .box::before,
-  .item.in-hospital > .gutter > .box::before {
+  .item.positive > .gutter > .box::before {
     top: px2vw(-$bdw, $vw);
     right: calc(-100% - #{px2vw($bdw * 2, $vw)} + 0.3px);
     width: calc(100% + #{px2vw($bdw * 2, $vw)});
   }
-  .item.in-hotel > .gutter > .box::before {
-    top: px2vw(-$bdw, $vw);
-    right: calc(-100% - #{px2vw($bdw * 2, $vw)} + 0.3px);
-    width: calc(100% + #{px2vw($bdw * 2, $vw)});
-  }
-  .item.in-home > .gutter > .box::before {
-    top: px2vw(-$bdw, $vw);
-    right: calc(-100% - #{px2vw($bdw * 2, $vw)} + 0.3px);
-    width: calc(100% + #{px2vw($bdw * 2, $vw)});
-  }
-  .item.serious > .gutter > .box::before,
-  .item.recovered > .gutter > .box::before {
+  .item.recovered > .gutter > .box::before,
+  .item.in-hospital > .gutter > .box::before,
+  .item.in-hotel > .gutter > .box::before,
+  .item.in-home > .gutter > .box::before,
+  .item.deceased > .gutter > .box::before {
     top: px2vw(-$boxdiff - $bdw, $vw);
     right: px2vw(-$bdw, $vw);
   }

@@ -33,12 +33,12 @@ type DataType = {
 
 type ConfirmedCasesType = {
   検査実施人数: number
-  陽性物数: number
-  入院中: number
-  軽症中等症: number
-  症状がある方: number
-  死亡: number
+  陽性患者数: number
   退院: number
+  入院中: number
+  宿泊施設: number
+  自宅療養: number
+  死亡: number
 }
 
 /**
@@ -49,12 +49,12 @@ type ConfirmedCasesType = {
 export default (data: DataType) => {
   const formattedData: ConfirmedCasesType = {
     検査実施人数: data.value,
-    陽性物数: data.children[0].value,
-    入院中: data.children[0].children[0].value,
-    軽症中等症: data.children[0].children[0].children[0].value,
-    症状がある方: data.children[0].children[0].children[1].value,
-    死亡: data.children[0].children[2].value,
-    退院: data.children[0].children[1].value
+    陽性患者数: data.children[0].value,
+    退院: data.children[0].children[0].value,
+    入院中: data.children[0].children[1].value,
+    宿泊施設: data.children[0].children[2].value,
+    自宅療養: data.children[0].children[3].value,
+    死亡: data.children[0].children[4].value
   }
   return formattedData
 }
