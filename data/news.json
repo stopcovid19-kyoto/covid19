@@ -1,27 +1,27 @@
 {
     "newsItems": [
         {
-            "date": "6\/6\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000271/271110/200606oshirase(249).pdf",
-            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府359例目、市249例目）"
+            "date": "6\/16\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000271/271448/200616oshirase(250-252).pdf",
+            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府361-363例目、市250-252例目）"
         },
         {
-            "date": "5\/03\/2020",
-            "url": "https://www.pref.kyoto.jp/kentai/news/documents/20200503.pdf",
-            "text": "（京都府）新型コロナウイルス感染症患者の発生について(府330例目)"
+            "date": "6\/9\/2020",
+            "url": "https://www.pref.kyoto.jp/kentai/corona/documents/20200609-360.pdf",
+            "text": "（京都府）新型コロナウイルス感染症患者の発生について(府360例目)"
         },
         {
-            "date": "5\/21\/2020",
-            "url": "https://www.pref.kyoto.jp/kikikanri/news/coronavirus-sengenkaijogohoushin.html",
-            "text": "（京都府）京都府における緊急事態宣言解除後の対応方針"
+            "date": "5\/27\/2020",
+            "url": "http://www.pref.kyoto.jp/kikikanri/news/coronavirus-kongonotorikumi_0527.html",
+            "text": "（京都府）新型コロナウイルス感染症対策に関する今後の取組について"
         },
         {
-            "date": "5\/26\/2020",
+            "date": "6\/17\/2020",
             "url": "https:\/\/www.city.kyoto.lg.jp\/hokenfukushi\/page\/0000266590.html",
             "text": "（京都市）新型コロナウイルス感染症に関するお知らせ"
         },
         {
-            "date": "5\/26\/2020",
+            "date": "6\/17\/2020",
             "url": "https:\/\/www.pref.kyoto.jp\/kentai\/news\/novelcoronavirus.html",
             "text": "（京都府）新型コロナウイルス感染症に関連する情報について"
         }
