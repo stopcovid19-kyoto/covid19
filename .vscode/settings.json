@@ -10,5 +10,6 @@
     "eslint.validate": [
       "javascript",
       "vue"
-    ]
+    ],
+    "json.maxItemsComputed": 10000
   }
