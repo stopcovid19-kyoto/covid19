@@ -1,29 +1,34 @@
 {
     "newsItems": [
         {
-            "date": "6\/26\/2020",
-            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/cmsfiles/contents/0000271/271916/200628oshirase(263).pdf",
-            "text": "（京都市）新型コロナウイルス感染症の患者の発生について（府375例目、市263例目）"
+            "date": "7\/4\/2020",
+            "url": "https://www.pref.kyoto.jp/kentai/corona/hassei1-50.html",
+            "text": "（京都府）府内の感染状況"
         },
         {
-            "date": "6\/20\/2020",
-            "url": "https://www.pref.kyoto.jp/kentai/corona/documents/20200620_365.pdf",
-            "text": "（京都府）新型コロナウイルス感染症患者の発生について(府365例目)"
+            "date": "7\/4\/2020",
+            "url": "https://www.pref.kyoto.jp/kentai/corona/pcrkensa.html",
+            "text": "（京都府）新型コロナウイルス感染症の府内PCR検査状況等について"
         },
         {
-            "date": "5\/27\/2020",
-            "url": "http://www.pref.kyoto.jp/kikikanri/news/coronavirus-kongonotorikumi_0527.html",
-            "text": "（京都府）新型コロナウイルス感染症対策に関する今後の取組について"
+            "date": "7\/4\/2020",
+            "url": "http://www.pref.kyoto.jp/kentai/corona/tassei_jyokyo.html",
+            "text": "（京都府）京都府のモニタリング指標の状況"
         },
         {
-            "date": "6\/17\/2020",
-            "url": "https:\/\/www.city.kyoto.lg.jp\/hokenfukushi\/page\/0000266590.html",
-            "text": "（京都市）新型コロナウイルス感染症に関するお知らせ"
-        },
-        {
-            "date": "6\/17\/2020",
+            "date": "7\/4\/2020",
             "url": "https:\/\/www.pref.kyoto.jp\/kentai\/news\/novelcoronavirus.html",
             "text": "（京都府）新型コロナウイルス感染症に関連する情報について"
+        },
+        {
+            "date": "7\/4\/2020",
+            "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000268303.html",
+            "text": "（京都市）新型コロナウイルス感染症　最新の動向"
+        },
+        {
+            "date": "7\/4\/2020",
+            "url": "https:\/\/www.city.kyoto.lg.jp\/hokenfukushi\/page\/0000266590.html",
+            "text": "（京都市）新型コロナウイルス感染症に関するお知らせ"
         }
     ]
 }
