@@ -69,6 +69,6 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "vue-axe": "^1.0.8",
-    "vue-jest": "^4.0.0-0"
+    "vue-jest": "^4.0.0-beta.4"
   }
 }
