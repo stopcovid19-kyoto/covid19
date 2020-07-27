@@ -3,14 +3,14 @@
     <confirmed-cases-number-card
       v-if="this.$route.params.card == 'number-of-confirmed-cases'"
     />
-    <confirmed-cases-attributes-card
-      v-else-if="this.$route.params.card == 'attributes-of-confirmed-cases'"
+    <confirmed-cases-details-card
+      v-else-if="this.$route.params.card == 'details-of-confirmed-cases'"
     />
     <tested-number-card
       v-else-if="this.$route.params.card == 'number-of-tested'"
     />
-    <confirmed-cases-details-card
-      v-else-if="this.$route.params.card == 'details-of-confirmed-cases'"
+    <confirmed-cases-attributes-card
+      v-else-if="this.$route.params.card == 'attributes-of-confirmed-cases'"
     />
     <contact-number-card
       v-else-if="this.$route.params.card == 'number-of-contact'"
