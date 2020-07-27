@@ -14,9 +14,9 @@
     />
     <v-row class="DataBlock">
       <confirmed-cases-number-card />
-      <confirmed-cases-attributes-card />
-      <tested-number-card />
       <confirmed-cases-details-card />
+      <tested-number-card />
+      <confirmed-cases-attributes-card />
       <contact-number-card />
     </v-row>
   </div>
